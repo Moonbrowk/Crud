@@ -1,0 +1,63 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #3a3a3a;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    background: #ffffff;
+}
+
+
+
+.table1 {
+    margin: 0 0 40px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: table;
+    text-align: center;
+
+}
+
+th {
+    font-weight: 900;
+    color: #ffffff;
+    background: #ea6153;
+}
+td.blocks {
+    color: #232323;
+    vertical-align: top;
+}
+td.blocks2 {
+    color: #232323;
+    vertical-align: bottom;
+}
+td.title {
+    color: #232323;
+    text-align: left;
+    font-size: 130%;
+}
+
+
+
+.tr1:nth-child(odd) {
+    background: #f5eef1;
+}
+
+a {
+    text-decoration: none;
+}
+.page {
+    font-size: 200%;
+}
+
+input.button {
+    color: #f0f0f0;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(212,75,56); /* Фон кнопки */
+    border: none;
+    outline: none;
+}
+input.button:hover {background: rgb(232, 95, 76)}
+input.button:active {background: rgb(152,15,0)}
